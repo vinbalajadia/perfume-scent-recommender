@@ -61,7 +61,6 @@ class ScentController {
     }
 }
 
-// Initialize controller if this file is accessed directly
 if (!defined('CONTROLLER_INCLUDED')) {
     define('CONTROLLER_INCLUDED', true);
     $controller = new ScentController();
